@@ -19,12 +19,24 @@ from container_support import TrainingEnvironment
 
 logger = logging.getLogger(__name__)
 
+SUCCESS_CODE = 0
+DEFAULT_FAILURE_CODE = 1
+
+
+def _get_valid_failure_exit_code(exit_code):
+    try:
+        valid_exit_code = int(exit_code)
+    except ValueError:
+        valid_exit_code = DEFAULT_FAILURE_CODE
+
+    return valid_exit_code
+
 
 class Trainer(object):
     @classmethod
     def start(cls):
         base_dir = None
-        exit_code = 0
+        exit_code = SUCCESS_CODE
         cs.configure_logging()
         logger.info("Training starting")
         try:
@@ -40,7 +52,8 @@ class Trainer(object):
             message = 'uncaught exception during training: {}\n{}\n'.format(e, trc)
             logger.error(message)
             TrainingEnvironment.write_failure_file(message, base_dir)
-            exit_code = 1 if not hasattr(e, 'errno') else e.errno
+            error_number = e.errno if hasattr(e, 'errno') else DEFAULT_FAILURE_CODE
+            exit_code = _get_valid_failure_exit_code(error_number)
             raise e
         finally:
             # Since threads in Python cannot be stopped, this is the only way to stop the application

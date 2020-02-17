@@ -1,5 +1,15 @@
 # Changelog
 
+## v2.7.0 (2020-02-17)
+
+### Features
+
+ * support specifying S3 endpoint URL
+
+### Bug Fixes and Other Changes
+
+ * Fix memory leak in gethostname and adapt len semantics to Posix
+
 ## v2.6.4 (2020-02-07)
 
 ### Bug Fixes and Other Changes

@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.1 (2020-02-20)
+
+### Bug Fixes and Other Changes
+
+ * update copyright year
+
 ## v2.8.0 (2020-02-19)
 
 ### Features

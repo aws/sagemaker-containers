@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.2.post0 (2020-03-24)
+
+### Testing and Release Infrastructure
+
+ * fix cleanup with requirements.txt functional tests
+
 ## v2.8.2 (2020-03-20)
 
 ### Bug Fixes and Other Changes

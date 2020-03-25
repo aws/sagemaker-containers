@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.3 (2020-03-25)
+
+### Bug Fixes and Other Changes
+
+ * use shlex.quote to construct bash command
+
 ## v2.8.2.post0 (2020-03-24)
 
 ### Testing and Release Infrastructure

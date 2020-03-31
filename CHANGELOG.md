@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.4 (2020-03-31)
+
+### Bug Fixes and Other Changes
+
+ * relax psutils version requirements to avoid version conflicts.
+
 ## v2.8.3 (2020-03-25)
 
 ### Bug Fixes and Other Changes

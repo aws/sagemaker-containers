@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.6 (2020-04-01)
+
+### Bug Fixes and Other Changes
+
+ * Revert "change: stream stderr even when capture_error is True (#233)"
+
 ## v2.8.5 (2020-04-01)
 
 ### Bug Fixes and Other Changes

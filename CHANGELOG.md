@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.5 (2020-04-01)
+
+### Bug Fixes and Other Changes
+
+ * relax dependencies version requirements.
+
 ## v2.8.4 (2020-03-31)
 
 ### Bug Fixes and Other Changes

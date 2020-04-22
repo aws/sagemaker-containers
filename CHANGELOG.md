@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.6.post0 (2020-04-22)
+
+### Documentation Changes
+
+ * Add package deprecation warning to README
+
 ## v2.8.6 (2020-04-01)
 
 ### Bug Fixes and Other Changes

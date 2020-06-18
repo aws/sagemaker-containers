@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.6.post1 (2020-06-18)
+
+### Documentation Changes
+
+ * update list of frameworks that use this repository
+
 ## v2.8.6.post0 (2020-04-22)
 
 ### Documentation Changes

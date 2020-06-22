@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.6.post2 (2020-06-22)
+
+### Testing and Release Infrastructure
+
+ * clean up .gitignore
+
 ## v2.8.6.post1 (2020-06-18)
 
 ### Documentation Changes
